@@ -13,8 +13,8 @@ not obvious which route is the shortest one. Transition time and distance
 between stations vary, which adds to the problem.  
 
 Entire program, including the user interface and all graphics, fits into 400
-lines of code. In particular, my reference implementation of  A\* is,
-ironically, almost two times shorter than the [pseudocode
+lines of code. In particular, my implementation of  A\* is under 25 lines of
+code which is, ironically, almost two times shorter than the [pseudocode
 definition](https://en.wikipedia.org/wiki/A*_search_algorithm) of A\* on
 Wikipedia.
 
@@ -26,7 +26,7 @@ but it is minimalistic, so here's its exhaustive translation:
 * Show a line. 
 * Close
 
--- Select any two different stations from dropboxes and press Submit -- The
+Select any two different stations from dropboxes and press Submit -- The
 status report will say: The shortest route between stations X and Y takes X min
 : X sec (X transitions). Algorithm worked X seconds and had explored X
 variants.
